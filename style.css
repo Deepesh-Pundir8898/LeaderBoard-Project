@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #3c587d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+h1{
+    font-size: 3.5rem;
+    color: #daf4f5;
+}
+.input-container{
+    width: 80%;
+    padding: 1.5rem;
+    background:linear-gradient(to right, rgb(91, 63, 230),rgb(43, 43, 185), rgb(63, 63, 167),rgb(9, 43, 213));
+    border-radius: 10px;
+    form{
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+}
+.input-container input,.input-container select{
+    width: 20%;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.input-container button{
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    font-weight: 600;
+    color: #1658e6;
+
+}
+.input-container button:hover{
+    background-color: rgb(206, 215, 223);
+}
+.leaderboard-result{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+.result-block{
+    border: 5px solid #1179cf; 
+    padding : 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px #1179cf;
+}
+.leaderboard-result .button_group:nth-child(even){
+   background-color: #1179cf;
+}
+.button_group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    color: white;
+    gap: 2rem;
+}
+.button_group span{
+    width: 20%;
+}
+.button_group button{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+}
+
