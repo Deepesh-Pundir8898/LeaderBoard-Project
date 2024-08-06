@@ -5,7 +5,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
-    background-color: #3c587d;
+    /* background-color: #3c587d; */
+    background-image: url(images/images.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +25,7 @@ h1{
 .input-container{
     width: 80%;
     padding: 1.5rem;
-    background:linear-gradient(to right, rgb(91, 63, 230),rgb(43, 43, 185), rgb(63, 63, 167),rgb(9, 43, 213));
+    background:linear-gradient(to right, rgb(13, 186, 79),rgb(9, 212, 32), rgb(25, 211, 69),rgb(16, 224, 71));
     border-radius: 10px;
     form{
         display: flex;
@@ -48,7 +49,7 @@ h1{
     transition: all 0.2s ease-in-out;
     border: none;
     font-weight: 600;
-    color: #1658e6;
+    color: rgb(9, 212, 32);
 
 }
 .input-container button:hover{
@@ -59,16 +60,18 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    max-height: 60vh;
+    overflow-y: auto;
     
 }
 .result-block{
-    border: 5px solid #1179cf; 
-    padding : 1rem;
+    border: 5px solid rgb(9, 212, 32); 
+    padding : 2rem;
     border-radius: 5px;
-    box-shadow: 0 0 10px 5px #1179cf;
+    box-shadow: 0 0 10px 5px rgb(9, 212, 32);
 }
-.leaderboard-result .button_group:nth-child(even){
-   background-color: #1179cf;
+.leaderboard-result .button_group{
+   background-color: rgb(9, 212, 32);
 }
 .button_group{
     display: flex;
@@ -91,4 +94,13 @@ h1{
     font-weight: 600;
     border: none;
 }
-
+.game-animation{
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    background:linear-gradient(to right, rgb(13, 186, 79),rgb(9, 212, 32), rgb(25, 211, 69),rgb(16, 224, 71));
+    border-radius: 10px;
+    
+}
