@@ -49,11 +49,13 @@ h1{
     transition: all 0.2s ease-in-out;
     border: none;
     font-weight: 600;
-    color: rgb(9, 212, 32);
+    background-color: green;
+    color: white;
 
 }
 .input-container button:hover{
-    background-color: rgb(206, 215, 223);
+    background-color:white;
+    color: green;
 }
 .leaderboard-result{
     width: 80%;
